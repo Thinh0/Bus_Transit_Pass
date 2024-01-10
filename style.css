@@ -93,13 +93,14 @@ input:focus {
     border: solid 2px #8F3985;
 }
 
-div.topnav{
+div.topnav {
     color: #FFF;
     font-family: Montserrat;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 3.5rem; /* 233.333% */
+    line-height: 3.5rem;
+    /* 233.333% */
     padding: 0rem 3rem 0rem 1rem;
     margin: auto;
     text-align: center;
@@ -109,11 +110,11 @@ div.topnav{
     flex-wrap: wrap;
 }
 
-.topnav > div {
+.topnav>div {
     margin: auto;
 }
 
-.title{
+.title {
     max-width: 680px;
     text-align: center !important;
     margin: auto;
