@@ -10,7 +10,8 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Music</title>
+    <title>Bus pass</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
         <p>While you are here, please enjoy some music from my Spotify-like app.</p>
     </div>
     <div class="centered" style="padding-top:40px ">
-        <h3>Personal project: Music streaming web app</h3>
+        <h3>Personal project: Bus Day-Pass</h3>
         <div>
             <span class="badge">HTML</span>
             <span class="badge">CSS</span>
@@ -39,7 +40,14 @@
         <p>Project type: Personal</p>
         <p>Project member(s): 1 developer, 1 designer</p>
         <p>My role: developer</p>
-        <input type="text" placeholder="Type in a song name" class="search">
+        <p>Project Description: This project mirrors the Go Transit system’s day pass.
+            The pass functionality is such a great idea to encourage people to explore as
+            many cities as they want on the weekend as they have the pass active for 24 hours.</p>
+    </div>
+    <div class="generateBox">
+        <button class="PrimaryButton" onclick="generateToRegenerate()" id="button">Generate Pass</button>
+        <p id="passNumber">Click on "Generate Pass" button to see your Bus Pass</p>
+        <p id="activate"></p>
     </div>
 </body>
 
