@@ -64,24 +64,6 @@ h3 {
     font-weight: bold;
 }
 
-input.search {
-    background: linear-gradient(180deg, rgba(0, 7, 25, 0.10) 0%, rgba(255, 255, 255, 0.10) 100%);
-    box-shadow: 0px -5px 20px 0px rgba(0, 0, 0, 0.20) inset, 0px 5px 15px 0px rgba(255, 255, 255, 0.25) inset;
-    backdrop-filter: blur(15px);
-    color: #8F8F8F;
-    border: 0;
-    width: 100%;
-    max-width: 454px;
-    border-radius: 1.25rem;
-    font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    padding: 8px 16px;
-
-}
-
 div.centered {
     margin: auto;
     text-align: center;
@@ -100,7 +82,6 @@ div.topnav {
     font-style: normal;
     font-weight: 700;
     line-height: 3.5rem;
-    /* 233.333% */
     padding: 0rem 3rem 0rem 1rem;
     margin: auto;
     text-align: center;
@@ -153,10 +134,11 @@ a:visited {
     font-family: Montserrat;
     max-width: 680px;
     margin: auto;
+    
 }
 
 .SecondaryButton {
-    background-color: black;
+    background-color: none;
     color: #8F3985;
 }
 
@@ -178,4 +160,12 @@ a:visited {
 
 .PrimaryButton:focus{
     border: 1px solid
+}
+
+.activateButton:hover{
+    color: #8F3985;
+}
+
+.activateButton:visited{
+    color: #8F3985;
 }
