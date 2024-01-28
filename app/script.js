@@ -9,6 +9,7 @@ function generateToRegenerate() {
     const randomNumbers = "Your Bus Pass Number is: BTP" + Math.floor(1000000 + Math.random() * 9000000);
     document.getElementById("passNumber").innerHTML = randomNumbers;
     document.getElementById("activate").innerHTML = "Activate Pass";
-
+    document.getElementById("ticketNumber").innerHTML = randomNumbers;
+    
     return busPass;
 }
