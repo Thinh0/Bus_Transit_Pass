@@ -49,29 +49,82 @@
         <p id="passNumber">Click on "Generate Pass" button to see your Bus Pass</p>
         <button id="activate" class="activateButton"></button>
     </div>
-    <div style="max-width: 680px;">
-    <div class="layout1-1">
-        <div class="layout1-1-1">
-            <p class="spinningPass">BUS TRANSIT PASS</p>
+    <div style="max-width: 680px; margin: auto;">
+        <div class="layout1-1">
+            <div class="layout1-1-1">
+                <p class="spinningPass">BUS TRANSIT PASS</p>
+            </div>
         </div>
-    </div>
-    <div class="layout1-2">
-        <div class="passDetails" style="width: 47.05%;">
+        <div class="layout1-2">
+            <div class="passDetails" style="width: 47.05%;">
                 <p style="font-size: 2.5rem; font-weight: bold;">x1</p>
-                <p style="">Passenger(s)</p>
+                <p class="passenger">Passenger(s)</p>
                 <p>1x $10 One-Day Pass</p>
+            </div>
+            <div class="passDetails" style="width: 5.9%; float: middle;">
+                <img src="assets/Icon.png">
+            </div>
+            <div class="passDetails" style="width: 47.05%; float: right;">
+                <img src="./assets/basil_card-outline.png">
+                <p>Multi Use Pass</p>
+            </div>
         </div>
-        <div class="passDetails" style="width: 5.9%; float: middle;">
-            <img src="assets/Icon.png">
+        <div class="layout1-3">
+            <p id="ticketNumber" style="color: #000;">ticket number: </p>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="429" height="76" viewBox="0 0 429 76" fill="none">
+                    <path d="M0.708252 0.890137V75.6613H10.1249V0.890137H0.708252Z" fill="#51264D" />
+                    <path d="M14.8333 0.890137V75.6613H24.2499V0.890137H14.8333Z" fill="#51264D" />
+                    <path d="M28.9583 0.890137V75.6613H33.6666V0.890137H28.9583Z" fill="#51264D" />
+                    <path d="M43.0832 0.890137V75.6613H52.4999V0.890137H43.0832Z" fill="#51264D" />
+                    <path d="M57.2082 0.890137V75.6613H71.3332V0.890137H57.2082Z" fill="#51264D" />
+                    <path d="M76.0416 0.890137V75.6613H80.7499V0.890137H76.0416Z" fill="#51264D" />
+                    <path d="M90.1666 0.890137V75.6613H104.292V65.8901H95.7083V10.8901H104.292V0.890137H90.1666Z"
+                        fill="#51264D" />
+                    <path d="M108.708 65.8901V75.6613H118.125V65.8901H108.708Z" fill="#51264D" />
+                    <path d="M118.125 10.8901H108.708V0.890137H118.125V10.8901Z" fill="#51264D" />
+                    <path d="M122.833 65.8901V75.6613H132.25V65.8901H122.833Z" fill="#51264D" />
+                    <path d="M132.25 10.8901H122.833V0.890137H132.25V10.8901Z" fill="#51264D" />
+                    <path d="M136.958 65.8901V75.6613H141.667V65.8901H136.958Z" fill="#51264D" />
+                    <path d="M141.667 10.8901H136.958V0.890137H141.667V10.8901Z" fill="#51264D" />
+                    <path d="M151.083 65.8901V75.6613H160.5V65.8901H151.083Z" fill="#51264D" />
+                    <path d="M160.5 10.8901H151.083V0.890137H160.5V10.8901Z" fill="#51264D" />
+                    <path d="M165.208 65.8901V75.6613H179.333V65.8901H165.208Z" fill="#51264D" />
+                    <path d="M179.333 10.8901H165.208V0.890137H179.333V10.8901Z" fill="#51264D" />
+                    <path d="M184.042 65.8901V75.6613H188.75V65.8901H184.042Z" fill="#51264D" />
+                    <path d="M188.75 10.8901H184.042V0.890137H188.75V10.8901Z" fill="#51264D" />
+                    <path d="M198.167 65.8901V75.6613H212.292V65.8901H198.167Z" fill="#51264D" />
+                    <path d="M212.292 10.8901H198.167V0.890137H212.292V10.8901Z" fill="#51264D" />
+                    <path d="M216.708 65.8901V75.6613H226.125V65.8901H216.708Z" fill="#51264D" />
+                    <path d="M226.125 10.8901H216.708V0.890137H226.125V10.8901Z" fill="#51264D" />
+                    <path d="M230.833 65.8901V75.6613H240.25V65.8901H230.833Z" fill="#51264D" />
+                    <path d="M240.25 10.8901H230.833V0.890137H240.25V10.8901Z" fill="#51264D" />
+                    <path d="M244.958 65.8901V75.6613H249.667V65.8901H244.958Z" fill="#51264D" />
+                    <path d="M249.667 10.8901H244.958V0.890137H249.667V10.8901Z" fill="#51264D" />
+                    <path d="M259.083 65.8901V75.6613H268.5V65.8901H259.083Z" fill="#51264D" />
+                    <path d="M268.5 10.8901H259.083V0.890137H268.5V10.8901Z" fill="#51264D" />
+                    <path d="M273.208 65.8901V75.6613H287.333V65.8901H273.208Z" fill="#51264D" />
+                    <path d="M287.333 10.8901H273.208V0.890137H287.333V10.8901Z" fill="#51264D" />
+                    <path d="M292.042 65.8901V75.6613H296.75V65.8901H292.042Z" fill="#51264D" />
+                    <path d="M296.75 10.8901H292.042V0.890137H296.75V10.8901Z" fill="#51264D" />
+                    <path d="M306.167 65.8901V75.6613H320.292V65.8901H306.167Z" fill="#51264D" />
+                    <path d="M320.292 10.8901H306.167V0.890137H320.292V10.8901Z" fill="#51264D" />
+                    <path d="M324.708 65.8901V75.6613H334.125V65.8901H324.708Z" fill="#51264D" />
+                    <path d="M334.125 10.8901H324.708V0.890137H334.125V10.8901Z" fill="#51264D" />
+                    <path d="M338.833 0.890137V75.6613H348.25V0.890137H338.833Z" fill="#51264D" />
+                    <path d="M352.958 0.890137V75.6613H357.667V0.890137H352.958Z" fill="#51264D" />
+                    <path d="M367.083 0.890137V75.6613H376.5V0.890137H367.083Z" fill="#51264D" />
+                    <path d="M381.208 0.890137V75.6613H395.333V0.890137H381.208Z" fill="#51264D" />
+                    <path d="M400.042 0.890137V75.6613H404.75V0.890137H400.042Z" fill="#51264D" />
+                    <path d="M414.167 0.890137V75.6613H428.292V0.890137H414.167Z" fill="#51264D" />
+                </svg>
+                <p style="color: #000;" class="currentTime">CURRENT TIME:</p>
+                <p id="currentTime" class="dateandtime"></p>
+            </div>
         </div>
-        <div class="passDetails" style="width: 47.05%; float: right;">
-            <img src="./assets/basil_card-outline.png">
-            <p>Multi Use Pass</p>
+        <div class="layout1-4">
+            <p>VALID UNTIL: </p>
         </div>
-    </div>
-    <div>
-        <p id="ticketNumber">ticket number: </p>
-    </div>
     </div>
 </body>
 

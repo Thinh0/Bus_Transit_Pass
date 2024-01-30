@@ -191,6 +191,17 @@ a:visited {
     justify-content: flex-end;
     align-items: flex-start;
     gap: 15.5rem;
+    margin: auto;
+}
+
+.passenger {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
 }
 
 .spinningPass {
@@ -209,7 +220,6 @@ a:visited {
 
 .layout1-2 {
     background-color: white;
-    width: 42.5rem;
     height: auto;
     text-align: center;
     margin: auto;
@@ -226,4 +236,43 @@ a:visited {
 
 .passDetails {
     height: 100%;
+}
+
+.layout1-3 {
+    background-color: white;
+    padding: 1.5rem 7.8125rem;
+    max-width: 42.5rem;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.currentTime {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+.dateandtime {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.layout1-4 {
+    background-color: #51264D;
+    display: flex;
+    max-width: 42.5rem;
+    padding: 1.5rem 7.8125rem 2.5rem 7.8125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }

@@ -10,6 +10,9 @@ function generateToRegenerate() {
     document.getElementById("passNumber").innerHTML = randomNumbers;
     document.getElementById("activate").innerHTML = "Activate Pass";
     document.getElementById("ticketNumber").innerHTML = randomNumbers;
-    
+    const currentDate = new Date();
+    document.getElementById("currentTime").innerHTML = currentDate;
+
+
     return busPass;
 }
